@@ -15,4 +15,16 @@ num=random.randint(0,10000)
 print(num)
 
 
+numero=int(input("ingrese el numero"))
+if numero % 2 == 0:
+    print("el numero", numero ,"es par")
+else:
+    print("el numero", numero ,"es impar")
+
+
+def grados ():
+    grados_fahrenheit=float(input("ingrese los grados fahrenheit"))
+    return grados_fahrenheit-32
+
+print(grados())
 
